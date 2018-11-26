@@ -1,0 +1,290 @@
+
+#leftnav {
+	clear: left;
+	float: left;
+	width: 18%;
+	height: 660px;
+	position: absolute;
+	margin: 0;
+	padding: 8px 1px 10px 4px;
+	background: #9B0000;
+	background: -webkit-linear-gradient(left, #420000, #9B0000,#420000);
+	background: -o-linear-gradient(left, #420000, #9B0000, #420000);
+	background: -moz-linear-gradient(left, #420000, #9B0000, #420000);
+	background: linear-gradient(to right, #420000, #9B0000, #420000);
+}
+#headerfont {
+	font-size: 137%;
+	font-family: Times New Roman;
+	font-weight: bold;
+	text-align: center;
+	font-weight: bolder;
+	color: pink;
+	text-shadow: 2px 2px rgb(5, 5, 63);
+	letter-spacing: 2px;
+}
+
+img {
+	border-radius: 50%;
+	width: 100%;
+	height: 25%;
+}
+
+#motto {
+	color:#ffdab9;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 90%;
+	text-align: center;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px 0px 28px;
+	float: left;
+	width: 84%;
+	position: absolute;
+	overflow: auto;
+}
+li {
+	display: inline;
+	float: left;
+	font-weight: bolder;
+}
+a {
+	display: block;
+	color: White;
+	padding: 15px;
+	text-decoration: none;
+	border-left: 3px solid red;
+	text-align: center;
+}
+a:hover {
+	background-color: white;
+	color: black;
+	border-radius: 0px 40px 40px 0px;
+	border: 2px solid red;
+	width: 90%;
+}
+.current {
+   background-color: black;
+	color: white;
+	border-radius: 0px 40px 40px 0px;
+	border: 2px solid red;
+	width: 90%;
+}
+
+
+#navbar {
+	margin-left: -5%;
+	margin-top: 10%;
+}
+
+#powered {
+	position: down bottom;
+	color: pink;
+	padding: 40px 0px 0px 0px;
+	margin-top: 331px;
+	text-shadow: 2px 2px rgb(7, 7, 46);
+}
+
+#poweredfont {
+	font-size: 70%;
+	color: #ffdab9;
+	font-family: Times New Roman;
+	font-weight: bold;
+}
+
+#title h3 {
+	font-size: 145%;
+	color: red;
+	font-family: Times New Roman;
+	font-weight: bold;
+	text-align: center;
+	padding: 40px 0px;
+	word-spacing: 3.5px;
+	text-shadow: 1px 1px black;
+} 
+
+#transbox2 {
+	background-color: #FFCACA;
+	border: 4px solid red;
+	filter: alpha(opacity=60);
+	height: 670px;
+	font-weight: bold;
+	opacity: 0.8;
+}
+
+#transbox2 p{
+	margin: 40px;
+	text-justify: auto;
+	font-size: 18px;
+	font-family: Times New Roman;
+	text-align: justify;
+	word-break: keep-all;
+	word-spacing: 3px;
+	line-height: 2.1;
+}
+
+#content {
+	float: right;
+	width: 80%;
+	padding: 5px 0;
+	margin: 0;
+	display: inline;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#maincontainer {
+	float: left;
+	width: 100%;
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+	a:hover {
+		width: 74%;
+	}
+	.current {
+		width: 74%;
+	}
+	img {
+		width: 100%;
+		height: 20%;
+	}
+	#headerfont {
+		font-size: 109%;
+	}
+	#motto {
+		font-size: 78%;
+	}
+	#transbox2 p{
+		font-size: 103%;
+		line-height: 2.5;
+	}
+	ul {
+		padding: 10px 0px 0px 20px;
+		font-size: 84%;
+	}
+	#powered {
+		margin-top: 340px;
+	}
+	#title h3 {
+		font-size: 120%;
+	}
+	#leftnav {
+		width: 20%;
+	}
+	#content {
+		width: 77%;
+	}
+	
+}
+
+@media screen and (min-width: 541px) and (max-width:768px){
+	li {
+		margin: 11px 0px;
+	}
+	a:hover {
+		width: 80%;
+	}
+	.current {
+		width: 120%;
+	}
+	img {
+		width: 100%;
+		height: 18%;
+	}
+	#headerfont {
+		font-size: 150%;
+		margin: 30px 0px;
+	}
+	#motto {
+		font-size: 100%;
+		margin: 14px 0px 28px 0px;
+	}
+	
+	#transbox2 {
+		height: 1255px;
+	}
+	#transbox2 p{
+		font-size: 27px;
+		line-height: 1.8;
+		margin: 2px;
+	}
+	ul {
+		padding: 14px 0px 0px 18px;
+		font-size: 25px;
+	}
+	#powered {
+		margin-top: 730px;
+	}
+	#title h3 {
+		font-size: 30px;
+	} 
+	#leftnav {
+		width: 28%;
+	}
+	#content {
+		width: 69%;
+		padding: 0px;
+	}
+	#poweredfont {
+		font-size: 100%;
+	}
+	#leftnav {
+		height: 1240px;
+	}
+}
+
+@media screen and (min-width:0px) and (max-width:540px){
+	a:hover {
+		width: 73%;
+	}
+	.current {
+		width: 77%;
+	}
+	img {
+		width: 100%;
+		height: 18%;
+	}
+	#headerfont {
+		font-size: 55%;
+		margin: 6px 0px;
+	}
+	#motto {
+		font-size: 50%;
+	}
+	
+	#transbox2 {
+		height: 620px;
+	}
+	#transbox2 p{
+		font-size: 80%;
+		line-height: 1.8;
+		margin: 2px;
+	}
+	ul {
+		padding: 14px 0px 0px 4px;
+		font-size: 70%;
+	}
+	#powered {
+		margin-top: 343px;
+	}
+	#title h3 {
+		font-size: 90%;
+	} 
+	#leftnav {
+		width: 28%;
+	}
+	#content {
+		width: 69%;
+		padding: 0px;
+	}
+}
